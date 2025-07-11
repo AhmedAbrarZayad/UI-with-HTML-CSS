@@ -192,6 +192,7 @@ form textarea{
     border-radius: 7px;
     padding: 10px;
     border: 1px solid #ccc;
+    resize: none;
 }
 form button{
     width: 520px;
