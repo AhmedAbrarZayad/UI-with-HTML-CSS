@@ -89,6 +89,7 @@ main{
     margin-top:116px;
     background-color: rgba(78, 71, 255, 0.1);
     padding-top: 40px;
+    padding-bottom: 40px;
     border-radius: 25px;
 }
 .productivity-card{
@@ -101,10 +102,12 @@ main{
     align-items: center;
 }
 .productivity-info h1{
+    margin-bottom: 0;
     color: blue;
     font-size: 60px;
 }
 .productivity-info h3{
+    margin: 0;
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
