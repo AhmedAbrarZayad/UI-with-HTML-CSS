@@ -1,3 +1,8 @@
+.top-bar button:hover, .cool-ui button:hover, .action .content-text button:hover, .starting button:hover, form button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    background-color: burlywood;
+}
 .inter-black {
     font-family: 'Inter', sans-serif;
     font-weight: 900;
