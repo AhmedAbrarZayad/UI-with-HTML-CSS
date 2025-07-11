@@ -2,11 +2,24 @@
     font-family: 'Inter', sans-serif;
     font-weight: 900;
 }
-
+.inter-bold{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.inter-regular {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
 .raleway-bold {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
+  font-style: normal;
+}
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
   font-style: normal;
 }
 header{
@@ -44,4 +57,143 @@ header{
     color: white;
     border-radius: 15px;
     border: none;
+}
+main{
+    padding-top: 116px;
+    padding-left: 169px;
+    padding-right: 169px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action .content-text h3{
+    color: rgba(37, 36, 50, 0.5);
+}
+.action .content-text button{
+    width: 229px;
+    height: 48px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+.productivity{
+    text-align: center;
+    margin-top:116px;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding-top: 40px;
+    border-radius: 25px;
+}
+.productivity-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 159px 10px;
+}
+.productivity-info{
+    align-items: center;
+}
+.productivity-info h1{
+    color: blue;
+    font-size: 60px;
+}
+.productivity-info h3{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+.reviews {
+    margin-top: 80px;
+}
+
+.reviews .title{
+    text-align: center;;
+}
+.review-cards{
+    display: flex;
+    gap: 20px;
+}
+.review-card{
+    width: 366px;
+    height: 210px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.review-content{
+    padding: 10px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+}
+.reviewer img{
+    border-radius: 50%;
+}
+.reviewer-info h5, .reviewer-info p {
+    margin: 0px 5px;
+}
+
+.reviewer-info h5 {
+    margin-bottom: 2px;
+}
+
+.starting{
+    margin: 40px;
+    padding-top: 30px;
+    text-align: center;
+    width: 1140px;
+    height: 610px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.starting button{
+    width: 195px;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+.starting img{
+    margin-top: 30px;
+}
+
+.touch{
+    background-color: rgba(255, 255, 255, 0.5); 
+    margin: 100px 150px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.touch h1{
+    font-size: 97px;
+}
+form input{
+    margin-bottom: 20px;
+    width: 497px;
+    height: 40px;
+    display: block;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+form textarea{
+    margin-bottom: 10px;
+    width: 497px;
+    height: 100px;
+    display: block;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+form button{
+    width: 520px;
+    height: 62px;
+    background-color: blue;
+    color: white;
+    display: block;
+    border: none;
+    border-radius: 10px;
 }
