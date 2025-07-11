@@ -219,6 +219,9 @@ form button{
 .pages{
     display: flex;
     justify-content: center;
-    gap: 50px;
-    
+    gap: 50px;   
+}
+.logo-final a{
+    text-decoration: none;
+    color: #8987A1;
 }
